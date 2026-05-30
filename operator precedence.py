@@ -29,3 +29,23 @@ else:
 sum = (40*38)+56-36
 mean = sum/40
 print(mean)
+
+
+
+# task 4
+
+#Three cyclists are riding at the speed of 10,20,30 km/h. 
+#find the average and compare which cyclist is riding slower than the average speed?
+
+c1 = 10
+c2 = 20
+c3 = 30
+
+avg = (c1 + c2 + c3) / 3
+print(avg)
+if c1 < avg:
+    print("c1 is the slower than avg")
+elif c2 < avg:
+    print("c2 is the slower than avg")
+else:
+    print("c3 is the slower than avg")
